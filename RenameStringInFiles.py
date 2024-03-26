@@ -14,7 +14,7 @@ def rename_string_in_files(directory, old_string, new_string):
                 file.write(new_content)
 
 if __name__ == "__main__":
-    # Replace 'your_directory' with the path to the directory containing your files
+    # Replace 'directory' with the path to the directory containing your files
     directory = 'G:/example/files'
 
     # Replace 'Hello' with the string you want to rename, and 'NewString' with the new string
